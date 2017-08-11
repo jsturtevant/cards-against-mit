@@ -7,11 +7,11 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "~4.14",
-    "body-parser": "~1.15",
-    "jade": "~1.11",
-    "mongodb": "~2.2",
-    "monk":"~3.0"
+    "express": "~4.15.4",
+    "body-parser": "~1.17.2",
+    "jade": "~1.11.0",
+    "mongodb": "~2.2.31",
+    "monk": "~6.0.3"
   },
   "author": "Cosmos Darwin",
   "license": "MIT"
