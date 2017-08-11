@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  cards-against-mit:
+    image: cards-against-mit
+    build: .
+    ports:
+      - 80:80

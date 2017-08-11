@@ -1,0 +1,14 @@
+version: '2.1'
+
+services:
+  cards-against-mit:
+    image: cards-against-mit
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 80:80
+      - 9229:9229
+    volumes:
+      - .:/usr/src/app
+    command: node --inspect server.js

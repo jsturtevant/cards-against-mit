@@ -85,7 +85,7 @@ app.use(function (req, res, next) {
 // RUN
 if (process.env.NODE_ENV == "production") {
   // in Azure cloud
-  app.listen(process.env.PORT);
+  app.listen(80);
 }
 else {
   // local
