@@ -10,7 +10,7 @@ app.set('view engine', 'jade');
 var mongo = require('mongodb');
 var ObjectID = require('mongodb').ObjectID;
 
-const connectionString = "";
+const connectionString = process.env.MONGO_CONNSTRING || '';
 const db = require("monk")(connectionString);
 
 // MIDDLEWARE
