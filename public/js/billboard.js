@@ -7,15 +7,11 @@ function assemble(pairing) {
   // Open
   var html = '<tr data-id="' + pairing._id + '" class="pairing">';
   // Course
-  html += '<td class="course"><b>' + pairing.course + '</b></td>';
+  //html += '<td class="course"><b>' + pairing.course + '</b></td>';
+  
   // String
-  html += '<td class="string">'; 
-  for (var i = 0; i < pairing.whitefrags.length; i++) {
-    html += pairing.blackfrags[i];
-    html += "<b><u>" + pairing.whitefrags[i] + "</u></b>";
-  }
-  html += pairing.blackfrags[pairing.blackfrags.length-1];
-  html += '</td>';
+  html += '<td class="string">'+ pairing.submission +'</td>';
+  
   // Votes
   html += '<td class="votes">' + pairing.votes + '</td>';
   // Button
