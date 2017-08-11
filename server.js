@@ -10,7 +10,7 @@ app.set('view engine', 'jade');
 var mongo = require('mongodb');
 var ObjectID = require('mongodb').ObjectID;
 
-const connectionString = "mongodb://coffeechats:WBnGLRiXcjRaMGVGNjBjnONcfnXuSGfEEGyG4QrLSFrxP6hdePBSORjHQUjN0qwbs48svxzElKFQE4uufwpbiw==@coffeechats.documents.azure.com:10255/?ssl=true";
+const connectionString = "";
 const db = require("monk")(connectionString);
 
 // MIDDLEWARE
