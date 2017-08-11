@@ -1,5 +1,8 @@
 A coffee chat site
 
+![submit screen](assets/submit.png)
+![billboard screen](assets/billboard.png)
+
 ## Build
 ```
 npm install
